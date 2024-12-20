@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="icon" href="/img/logo/favicon.ico">
-        <title>テスト</title>
+        <title>テスト　少し改造してみた</title>
         <style>
             body {
                 margin: 0 auto;
@@ -41,7 +41,7 @@
         <script>
             function checkAnswer(){
                 sha256(document.getElementById('user_answer').value).then((hash) => {
-                    if(hash === 'b4003030a618a54e83c92ac29756ea2ff0cedb7b06c0cdd5433e9eb0688194a9') {
+                    if(hash === 'テスト') {
                         document.getElementById('result').textContent = 'yukiどぞ';
                         document.cookie = 'yuki=True; path=/; max-age=604800';
                         location.replace('/');
@@ -64,8 +64,7 @@
             
         <main>
             <h1>Duondのテスト</h1>
-            <p>テスト</p>
-            <p>テスト</p><br><br>
+            <p>テスト 改造すんの難しかったわ</p>
         </main>
 
         <footer>
