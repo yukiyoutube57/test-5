@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: new-instance
+    name: duong-2
     env: python
     region: Oregon
     plan: free
