@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: d技術のためのテスト
+    name: 技術のためのテスト
     env: python
     region: Oregon
     plan: free
