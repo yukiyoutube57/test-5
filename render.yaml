@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: new-instance
+    name: 技術のためのテスト
     env: python
     region: Oregon
     plan: free
