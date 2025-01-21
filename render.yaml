@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: 技術のためのテスト
+    name: Duong
     env: python
     region: Oregon
     plan: free
