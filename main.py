@@ -8,6 +8,7 @@ import os
 import subprocess
 from cache import cache
 import ast
+apis = ast.literal_eval(requests.get('https://raw.githubusercontent.com/LunaKamituki/yukiyoutube-inv-instances/main/instances.txt').text)
 
 # 3 => (3.0, 1.5) => (1.5, 1)
 max_api_wait_time = (1.5, 1)
